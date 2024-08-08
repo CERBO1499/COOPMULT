@@ -13,6 +13,12 @@ class ACOOPMULTIPLAYERGameMode : public AGameModeBase
 
 public:
 	ACOOPMULTIPLAYERGameMode();
+
+	UFUNCTION(BlueprintCallable)
+	void HostLANGame();
+
+	UFUNCTION(BlueprintCallable)
+	void JoinLANGame();
 };
 
 
